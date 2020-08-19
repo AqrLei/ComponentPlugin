@@ -1,4 +1,4 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.aqrlei.plugin.component'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
@@ -6,7 +6,7 @@ android {
     compileSdkVersion app.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.aqrlei.imageconvert.sample"
+        applicationId "com.aqrlei.component.sample"
         minSdkVersion app.minSdkVersion
         targetSdkVersion app.targetSdkVersion
         versionCode 1
