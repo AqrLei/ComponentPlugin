@@ -1,6 +1,7 @@
 apply plugin: 'com.aqrlei.plugin.component'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.aqrlei.plugin.imageconvert'
 
 android {
     compileSdkVersion app.compileSdkVersion
